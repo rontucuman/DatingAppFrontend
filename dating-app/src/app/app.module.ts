@@ -7,12 +7,16 @@ import { AppComponent } from './app.component';
 
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { NavComponent } from './nav/nav.component'
+import { NavComponent } from './nav/nav.component';
+import { HomeComponent } from './home/home.component';
+import { RegisterComponent } from './register/register.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
